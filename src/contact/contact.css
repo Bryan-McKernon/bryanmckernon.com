@@ -1,0 +1,41 @@
+.contact-container {
+    background-color: wheat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.contact-content {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.profilePic {
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);    
+}
+
+.contact-content a {
+    padding: 16px 0 0 0;
+    position: relative;
+    display: block;    
+    text-decoration: none;
+    color: black;    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 250px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contact-content a:hover {
+    color: rgb(184, 0, 0);
+    font-weight: bold;
+}

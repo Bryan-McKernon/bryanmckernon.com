@@ -1,0 +1,117 @@
+.project-container {
+    background-color: white;
+    width: 750px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 3px;
+    box-shadow: 0px 5px 12px 0px rgb(155, 155, 155);
+    margin: 36px 0 36px 0;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: bold;
+    position: relative;
+    padding: 15px 0 12px 0;
+}
+
+.project-image-website {
+    height: 250px;
+    width: 550px;
+    margin: 0 0 5px 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+.project-image-android {
+    height: 100px;
+    width: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+.project-image-internship {
+    height: 250px;
+    width: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+.project-description {
+    position: relative;
+    padding: 0 0 15px 0;
+    width: 550px;
+    left: 50%;
+    transform: translate(-50%);    
+}
+
+.project-description ol {
+    margin: 0;
+    padding: 0 0 2px 0;
+}
+
+
+@media only screen and (max-width: 820px) {    
+    .project-container {
+        width: 550px;       
+        margin: 36px 0 36px 0;
+    }
+
+    .project-image-website {
+        height: 160px;
+        width: 350px;
+    }
+
+    .project-image-android {
+        height: 80px;
+        width: 200px;
+    }
+
+    .project-image-internship {
+        height: 185px;
+        width: 185px;
+    }
+
+    .project-description {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .project-container {
+        width: 320px;       
+        margin: 36px 0 36px 0;
+    }
+    
+    .project-title {
+        font-size: 16px;
+    }    
+
+    .project-image-website {
+        height: 160px;
+        width: 320px;
+    }
+
+    .project-image-android {
+        height: 80px;
+        width: 200px;
+    }
+
+    .project-image-internship {
+        height: 120px;
+        width: 120px;
+    }
+
+    .project-description {
+        width: 300px;
+        font-size: 12.5px;
+    }
+}
