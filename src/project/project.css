@@ -55,7 +55,8 @@
 
 .project-description ol {
     margin: 0;
-    padding: 0 0 2px 0;
+    padding: 0 0 4px 0;
+    text-align: justify;
 }
 
 
@@ -83,6 +84,11 @@
     .project-description {
         width: 350px;
     }
+
+    .project-description ol {
+        margin: 0;
+        padding: 0 0 4px 0;
+    }    
 }
 
 @media only screen and (max-width: 620px) {
@@ -114,4 +120,9 @@
         width: 300px;
         font-size: 12.5px;
     }
+
+    .project-description ol {
+        margin: 0;
+        padding: 0 0 2px 0;
+    }    
 }
