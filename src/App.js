@@ -101,7 +101,7 @@ const navbarExpandExecute = () => {
       <Homepage/>
 
       <Project
-       url = "https://urban-dictionary-api.s3-us-west-1.amazonaws.com/index.htmls"
+       url = "https://urban-dictionary-api.s3-us-west-1.amazonaws.com/index.html"
        title="Urban Dictionary API"
        imageType="project-image-website"
        image={Urban_Dictionary_API_Img}
@@ -264,7 +264,7 @@ const navbarExpandExecute = () => {
           <div>
             <ol><b>Type: </b>Android Application</ol>
             <ol><b>Built: </b>1/17 - 4/17</ol>
-            <ol><b>Team: </b>Two</ol>
+            <ol><b>Team: </b>Three</ol>
             <ol><b>Languages: </b>Java, XML</ol>
             <ol><b>Technologies: </b>Android Studio</ol>
             <ol><b>Cloud: </b>Google Play Store</ol>
