@@ -13,6 +13,8 @@ import GooglePlayBadge from "./images/GooglePlayBadge.png";
 import SCC_Seal from "./images/SCC_Seal.jpg";
 import BryanMcKernon_Img from "./images/bryanmckernon_img.JPG";
 import ProfilePic from "./images/ProfilePic.jpg";
+import LinkedInLogo from "./images/linkedinlogo.png";
+import GitLogo from "./images/gitlogo.png";
 import navbarMenuButtonImg from "./images/NavbarMenuButton.png";
 
 function App() { 
@@ -349,7 +351,7 @@ const navbarExpandExecute = () => {
           </div>
       }/>
 
-      <Contact ProfilePic={ProfilePic}/>
+      <Contact ProfilePic={ProfilePic} LinkedInLogo={LinkedInLogo} GitLogo={GitLogo}/>
       <Footer/>
     </div>
   );

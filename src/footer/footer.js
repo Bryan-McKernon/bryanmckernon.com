@@ -5,7 +5,7 @@ const footer = () => {
     return (
         <div className="footer-container">
             <div className="copyright-text">
-                © Bryan McKernon 2019
+                © Bryan McKernon 2020
             </div>
         </div>
     )
