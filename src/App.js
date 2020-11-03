@@ -4,6 +4,7 @@ import Homepage from './homepage/homepage';
 import Project from './project/project';
 import Contact from './contact/contact';
 import Footer from './footer/footer';
+import BayAreaLawyers_Img from "./images/bayarealawyers-img.png";
 import Urban_Dictionary_API_Img from "./images/urban_dictionary_api.JPG";
 import Mystudycards_Img from "./images/mystudycards.png";
 import EvictionResource_Img from "./images/eviction_resource.JPG";
@@ -99,6 +100,25 @@ const navbarExpandExecute = () => {
         ContactClickEvent={ContactClickEventExecute}      
       />
       <Homepage/>
+
+      <Project
+       url = "http://bayarealawyers.com/"
+       title="bayarealawyers.com"
+       imageType="project-image-website"
+       image={BayAreaLawyers_Img}
+       description={
+         <div>
+           <ol><b>Type: </b>Web Application</ol>
+           <ol><b>Built: </b>2/20 - 11/20</ol>
+           <ol><b>Team: </b>Solo</ol>
+           <ol><b>Languages: </b>JavaScript ES6, SCSS</ol>
+           <ol><b>Technologies: </b>React, GIT, Visual Studio Code, Chrome Developer Tools</ol>
+           <ol><b>Cloud: </b>AWS: Elastic Beanstalk</ol>
+           <ol><b>Description: </b>
+        
+           </ol>
+         </div>
+       }/>
 
       <Project
        url = "https://urban-dictionary-api.s3-us-west-1.amazonaws.com/index.html"
