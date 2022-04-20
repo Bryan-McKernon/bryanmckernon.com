@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css';
-import Resume from "../Front_End_Engineer_Resume.pdf";
+import Resume from "../Resume.pdf";
 
 const linkedinlink = () => {
     window.open("https://www.linkedin.com/in/bryan-mckernon/");
