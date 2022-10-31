@@ -20,13 +20,23 @@
     padding: 15px 0 12px 0;
 }
 
+.project-image-logo {
+    height: 150px;
+    width: 267px;
+    margin: 0 0 5px 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
 .project-image-website {
-    height: 250px;
+    height: 300px;
     width: 550px;
     margin: 0 0 5px 0;
     left: 50%;
     transform: translate(-50%);
     position: relative;
+    margin-bottom: 24px;
 }
 
 .project-image-android {
@@ -40,6 +50,7 @@
 .project-image-internship {
     height: 250px;
     width: 250px;
+    margin-bottom: 12px;
     left: 50%;
     transform: translate(-50%);
     position: relative;

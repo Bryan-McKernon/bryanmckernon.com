@@ -16,7 +16,7 @@ const project = (props) => {
         src={props.image}
         onClick={openProject}
       />
-      <div className="project-description">{props.description}</div>
+      {/* <div className="project-description">{props.description}</div> */}
     </div>
   );
 };
